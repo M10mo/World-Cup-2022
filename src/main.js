@@ -16,3 +16,4 @@ function toggleDetails() {
       document.getElementById('toggleDetails').textContent = 'Show Details';
   }
 }
+

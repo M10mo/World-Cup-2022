@@ -48,3 +48,13 @@ h1 {
 }
 */ 
 /* I dont need this above code because I used Js to fix the issue */
+
+table {
+  width: 100%;
+  display: block;
+
+}
+td{
+  text-align: center;
+  
+}
