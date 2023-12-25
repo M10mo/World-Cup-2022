@@ -16,4 +16,16 @@ function toggleDetails() {
       document.getElementById('toggleDetails').textContent = 'Show Details';
   }
 }
+// let gif = document.getElementById('gifFinals');
+// document.addEventListener("DOMContentLoaded", function () {
+//   // Toggle play/pause on click
+//   gif.addEventListener('click', function () {
+//       if (gif.paused) {
+//           gif.play();
+//       } else {
+//           gif.pause();
+//       }
+//   });
+// });
+
 
