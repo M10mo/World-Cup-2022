@@ -1,0 +1,38 @@
+
+
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+tbody {
+background-color: skyblue;
+}
+
+th {
+background-color: rgb(197, 197, 239);
+/* border: 1 px solid black; */
+font-family: cursive;
+}
+
+tr {
+  text-align:center;
+  border: 1 px solid black;
+}
+#footer {
+  text-align: left;
+  border: none;
+}
+
+td {
+  border: 1px solid black;
+}
+tbody {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:large
+}
+
