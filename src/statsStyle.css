@@ -4,7 +4,7 @@
 
 
 table {
-  width: 100%;
+  /* width: 100%; */
   border-collapse: collapse;
 
 }
@@ -33,6 +33,58 @@ td {
 }
 tbody {
   font-family: 'Times New Roman', Times, serif;
-  font-size:large
+  font-size:large;
 }
 
+td:nth-child(1),
+th:nth-child(1) {
+  width: 150px;
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+  width: 150px;
+}
+
+td:nth-child(3),
+th:nth-child(3) {
+  width: 80px;
+}
+
+td:nth-child(3) {
+  font-family: fantasy;
+}
+
+td:nth-child(4),
+th:nth-child(4) {
+  width: 50px;
+}
+
+td:nth-child(5),
+th:nth-child(5) {
+  width: 80px;
+}
+
+td:nth-child(6),
+th:nth-child(6) {
+  width: 80px;
+}
+
+td:nth-child(7),
+th:nth-child(7) {
+  width: 80px;
+}
+
+td:nth-child(8),
+th:nth-child(8) {
+  width: 250px;
+} 
+
+
+td:nth-child(8) img {
+  width: 100%;
+  /* height: auto; */
+  display: block; /* treat img as block element */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+} 
