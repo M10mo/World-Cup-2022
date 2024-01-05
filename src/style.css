@@ -1,4 +1,4 @@
-/* :root { 
+:root { 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -13,6 +13,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-right: 10px;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -35,13 +55,10 @@ h1 {
   line-height: 1.1;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+li {
+  display:inline;
+  
 }
-*/
 
 /* #details { 
   display: none;
