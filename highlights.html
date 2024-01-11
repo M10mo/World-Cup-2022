@@ -18,18 +18,21 @@
       <li><a href="highlights.html">Highlights & Moments</a></li>
     </ul>
   </nav>
-  <main>
-    <div>
-        <form>
-          
-          <h2>Add your own</h2>
-          <label for="name">Name Placeholder</label>
-          <input type="text" name="highlight-title" id="highlight-title" placeholder="">
+  <main id="highlights-container">
+    <!-- Highlight items will be dynamically added here -->
+</main>
 
-        </form>
-    </div>
-    
-  </main>
+<form id="highlight-form">
+    <label for="highlight-text">Highlight:</label>
+    <textarea id="highlight-text" name="highlight-text" rows="4" cols="50" required></textarea>
+
+    <label for="caption">Caption:</label>
+    <input type="text" id="caption" name="caption" required>
+
+    <button type="button" onclick="addHighlight()">Add Highlight</button>
+</form>
+
+<script src="script.js"></script>   
   
 </body>
 </html>
