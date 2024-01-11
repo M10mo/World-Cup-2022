@@ -1,13 +1,12 @@
-root {
+:root {
   font-family: 'Times New Roman', Times, serif;
-  color: sandybrown;
+  background-color: sandybrown;
   margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #333;
-    color: white;
     padding: 10px;
     text-align: center;
 }
